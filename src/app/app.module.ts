@@ -9,6 +9,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { InformationsComponent } from './components/informations/informations.component';
 import { OurHistoryComponent } from './components/our-history/our-history.component';
 import { ConfirmationComponent } from './components/confirmation/confirmation.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 const appRoutes: Routes = [  { path: 'home', component: HomeComponent },
 
@@ -28,7 +29,8 @@ const appRoutes: Routes = [  { path: 'home', component: HomeComponent },
     HeaderComponent,
     InformationsComponent,
     OurHistoryComponent,
-    ConfirmationComponent
+    ConfirmationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
