@@ -10,24 +10,24 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" routerLink="/ourHistory" routerLinkActive="active">Our history</a>
+        <a class="nav-link" routerLink="/ourHistory" (click)="setActualRoute('/ourHistory')">{{ 'menu.history' | translate }}</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/informations" routerLinkActive="active">
+        <a class="nav-link" routerLink="/informations" (click)="setActualRoute('/informations')">
           <fa name="info-circle"></fa>
-          Informations
+          {{ 'menu.informations' | translate }}
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/confirmation" routerLinkActive="active">Confirmation</a>
+        <a class="nav-link" routerLink="/confirmation" (click)="setActualRoute('/confirmation')">{{ 'confirmation' | translate }}</a>
       </li>
     </ul>
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">français</a>
+        <a class="nav-link" [routerLink]="actualRoute" (click)="switchLanguage('fr')">français</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">deutsch</a>
+        <a class="nav-link" [routerLink]="actualRoute" (click)="switchLanguage('de')">deutsch</a>
       </li>
     </ul>
   </div>

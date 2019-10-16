@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  actualRoute : string = "/home";
+
+  constructor(private translateService: TranslateService) { }
 
   ngOnInit() {
+  }
+
+    /**
+   * Swittches the language.
+   * @param language
+   */
+  switchLanguage(language: string) {
+    this.translateService.use(language);
+  }
+
+    /**
+   * Sets the actual root.
+   * @param actualRoute
+   */
+  setActualRoute(actualRoute: string) {
+    this.actualRoute = actualRoute;
   }
 
 }

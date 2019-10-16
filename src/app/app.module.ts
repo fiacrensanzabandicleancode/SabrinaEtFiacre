@@ -3,6 +3,14 @@ import { NgModule } from '@angular/core';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { RouterModule, Routes } from '@angular/router'
 
+// Translation
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+export function HttpLoaderFactory(httpClient: HttpClient) {
+  return new TranslateHttpLoader(httpClient, './assets/i18n/', '.json');
+}
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -11,8 +19,8 @@ import { OurHistoryComponent } from './components/our-history/our-history.compon
 import { ConfirmationComponent } from './components/confirmation/confirmation.component';
 import { FooterComponent } from './components/footer/footer.component';
 
-const appRoutes: Routes = [  { path: 'home', component: HomeComponent },
-
+const appRoutes: Routes = [
+  { path: 'home', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'informations', component: InformationsComponent },
   { path: 'ourHistory', component: OurHistoryComponent },
@@ -20,6 +28,7 @@ const appRoutes: Routes = [  { path: 'home', component: HomeComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', component: HomeComponent }
 ]
+
 
 @NgModule({
   declarations: [
@@ -35,7 +44,17 @@ const appRoutes: Routes = [  { path: 'home', component: HomeComponent },
   imports: [
     BrowserModule,
     AngularFontAwesomeModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+
+    // ngx-translate and the loader module
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
