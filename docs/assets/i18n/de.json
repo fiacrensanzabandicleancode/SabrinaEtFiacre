@@ -1,0 +1,35 @@
+{
+    "menu.history": "Unsere Geschischte",
+    "menu.informations": "Informationen",
+    "menu.confirmations": "Confirmation",
+
+    "story.title.1": "Unsere Geschichte",
+    "story.1.card": "Treffen",
+    "story.1": "Kennenlernen in der Studentengemeinde in Roubaix (Oktober 2014)",
+    "story.2.card": "Kleines Date",
+    "story.2": "Chorkonzert (November 2014)",
+    "story.3.card": "Auf Wiedersehen",
+    "story.3": "Abschied in Lille nach Kinobesuch (April 2015)",
+    "story.4": "Wiedersehen in Lille (Pfingsten Mai 2015)",
+    "story.5.card": "Rundfahrten beginnen",
+    "story.5": "Treffen in Münster (Ende Mai 2015)",
+    "story.6": "Hin-und Herfahren, hier Warten auf den Bus in Dortmund (November 2015)",
+    "story.7": "Jeden Abend Skype…",
+    "story.title.2": "Unsere Familien",
+    "story.8": "In Büren",
+    "story.9": "In Québec",
+    "story.10": "In Bujumbura",
+    "story.title.3": "Was uns verbindet…",
+    "story.11": "Glaube, Hautecombe, Weltjugendtag, Taizé",
+    "story.12": "Musik",
+    "story.13": "Sport",
+    "story.14": "Reisen",
+    "story.15": "Liebe",
+
+    "informations.texte": "Entwicklung lauft!!",
+
+    "confirmation.adresse.texte": "Um Ihre Anwesenheit zu bestätigen, können Sie uns unter schreiben",
+    "confirmation.extrainfo": "Zögern Sie nicht, uns weitere Informationen zu geben oder uns Fragen zu stellen.",
+
+    "footer.developed.by": "Entwickelt von"
+}

@@ -1,0 +1,35 @@
+{
+    "menu.history": "Notre histoire",
+    "menu.informations": "Informations",
+    "menu.confirmations": "Confirmation",
+
+    "story.title.1": "Notre histoire",
+    "story.1.card": "Rencontre",
+    "story.1": "On s'est rencontré à l'aumonerie des étudiants et des jeunes pros à Roubaix",
+    "story.2.card": "Petit rencard",
+    "story.2": "Concert de la chorale des jeunes de Lille dont faisait partie Sabrina (Novembre 2014)",
+    "story.3.card": "Au revoir",
+    "story.3": "Sabrina repart en Allemagne. Petit au revoir après une soirée ciné (Avril 2015)",
+    "story.4": "Retour de Sabrina à Lille pour une visite (Pentecôte Mai 2015)",
+    "story.5.card": "Les allers retours commencent ...",
+    "story.5": "Rencontre à Münster (Fin Mai 2015)",
+    "story.6": "On attend le bus à Dortmund(Novembre 2015)",
+    "story.7": "Chaque soir, skype avant de dormir …",
+    "story.title.2": "Nos familles",
+    "story.8": "A Büren",
+    "story.9": "A Québec",
+    "story.10": "A Bujumbura",
+    "story.title.3": "Ce qui nous lie …",
+    "story.11": "La foi, Hautecombe, JMJ (Journée mondiale de la jeunesse), Taizé",
+    "story.12": "Musique",
+    "story.13": "Sport",
+    "story.14": "Voyager",
+    "story.15": "L'amour, bien sûr",
+
+    "informations.texte": "En cours de dév!!",
+
+    "confirmation.adresse.texte": "Pour confirmer votre présence, vous pouvez nous écrire à l'adresse",
+    "confirmation.extrainfo": "N'hésitez pas à nous indiquer d'autres informations complémentaires ou à nous poser des questions.",
+
+    "footer.developed.by": "Developpé par"
+}
