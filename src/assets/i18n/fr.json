@@ -2,5 +2,9 @@
     "menu.history": "Notre histoire",
     "menu.informations": "Informations",
     "menu.confirmations": "Confirmation",
+
+    "confirmation.adresse.texte": "Pour confirmer votre présence, vous pouvez nous écrire à l'adresse",
+    "confirmation.extrainfo": "N'hésitez pas à nous indiquer d'autres informations complémentaires ou à nous poser des questions.",
+
     "footer.developed.by": "Developpé par"
 }

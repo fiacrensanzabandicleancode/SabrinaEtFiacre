@@ -2,5 +2,9 @@
     "menu.history": "Unsere Geschischte",
     "menu.informations": "Informationen",
     "menu.confirmations": "Confirmation",
+
+    "confirmation.adresse.texte": "Um Ihre Anwesenheit zu bestätigen, können Sie uns unter schreiben",
+    "confirmation.extrainfo": "Zögern Sie nicht, uns weitere Informationen zu geben oder uns Fragen zu stellen.",
+
     "footer.developed.by": "Entwickelt von"
 }
