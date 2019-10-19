@@ -1,6 +1,62 @@
 <div class="container information">
-  <p>
-    {{ 'informations.texte' | translate}}
-  </p>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <!-- Night infos -->
+  <h1 class="display-3 informationTitles">{{ 'informations.night.title' | translate }}</h1>
+  <div class="card cardExtraStyle">
+    <div class="card-body">
+      <p>
+        {{ 'informations.night.invitation' | translate }}
+      </p>
+      <p>
+        Jugendherberge Wewelsburg <br>
+        Burgwall 17 <br>
+        33142 Büren-Wewelsburg <br>
+        Deutschland
+      </p>
+      <p>
+        <fa name="link"></fa>
+        <a href="https://www.jugendherberge.de/jugendherbergen/wewelsburg-386/portraet/">
+          https://www.jugendherberge.de/jugendherbergen/wewelsburg-386/portraet/
+        </a>
+        <br>
+        <fa name="phone"></fa>
+        +49 2955 6155
+        <br>
+        <fa name="envelope"></fa>
+        <a href="mailto:jh-wewelsburg@djh-wl.de"> jh-wewelsburg@djh-wl.de</a>
+      </p>
+    </div>
+  </div>
+  <br>
+
+  <!-- Road infos -->
+  <h1 class="display-3 informationTitles">{{ 'informations.trajet.title' | translate }}</h1>
+  <div class="card cardExtraStyle">
+    <div class="card-body">
+      <h5 class="card-title">{{ 'informations.trajet.flugzeug.title' | translate }}</h5>
+      <p>
+          {{ 'informations.trajet.flugzeug.1' | translate }} <br>
+          {{ 'informations.trajet.flugzeug.2' | translate }} <br>
+          {{ 'informations.trajet.flugzeug.3' | translate }}          
+      </p>
+      <h5 class="card-title">{{ 'informations.trajet.zug.title' | translate }}</h5>
+      <p>
+          {{ 'informations.trajet.zug.1' | translate }}
+      </p>
+      <h5 class="card-title">{{ 'informations.trajet.auto.title' | translate }}</h5>
+      <p>
+          {{ 'informations.trajet.auto.1' | translate }}
+      </p>
+      <h5 class="card-title">{{ 'informations.trajet.bus.title' | translate }}</h5>
+      <p>
+        {{ 'informations.trajet.bus.1' | translate }} 
+      </p>
+      <p>
+        <strong>
+            {{ 'informations.trajet.help' | translate }} <fa name="smile-o"></fa>
+        </strong>
+      </p>
+    </div>
+  </div>
+  <br>
 </div>

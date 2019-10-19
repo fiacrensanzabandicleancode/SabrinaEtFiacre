@@ -1,3 +1,11 @@
 .information {
     background-color: forestgreen;
 }
+
+.informationTitles {
+    text-align: center;
+}
+
+.cardExtraStyle {
+    text-align: center;
+}
