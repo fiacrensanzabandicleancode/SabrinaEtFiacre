@@ -11,7 +11,7 @@ export class AppComponent {
   title = 'SabrinaEtFiacre';
 
   constructor(private translate: TranslateService) {
-    translate.setDefaultLang('fr');
+    translate.setDefaultLang('de');
   }
 
 }
