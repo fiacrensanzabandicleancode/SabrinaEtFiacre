@@ -3,11 +3,18 @@
     "menu.informations": "Informationen",
     "menu.confirmations": "Rückmeldung",
 
-    "home.welcoming.1": "Wir laden euch herzlich zu unserer kirchlichen Trauung am ",
-    "home.welcoming.1.date": "15. August 2020 um 15 Uhr",
-    "home.welcoming.1.suite": " in der Kirche St. Jodokus in Büren-Wewelsburg ein.",
-    "home.welcoming.2": "Anschließend möchten wir mit euch im Saal der Jugendherberge Wewelsburg weiterfeiern.",
-    "home.welcoming.3": "Wir freuen uns, wenn ihr diesen besonderen Tag mit uns feiert.",
+    "home.welcoming.1": "Liebe Familie und Freunde,",
+    "home.welcoming.2": "aufgrund der aktuellen Ereignisse müssen wir unsere Hochzeit leider verschieben.",
+    "home.welcoming.3": "Wir möchten diesen besonderen Tag nämlich gerne mit euch allen feiern und das ist momentan leider nicht möglich.",
+    "home.welcoming.4": "Daher laden wir euch zur kirchlichen Trauung am ",
+    "home.welcoming.4.date": "21. August 2021 um 15 Uhr",
+    "home.welcoming.4.suite": " in der Kirche St. Jodokus in Büren-Wewelsburg ein.",
+    "home.welcoming.5": "Anschließend möchten wir mit euch im Saal der Jugendherberge Wewelsburg weiterfeiern.",
+    "home.welcoming.6": "Bitte gebt uns bis zum 21.2.2021 Bescheid, ob ihr an diesem neuen Datum kommen könnt.",
+    "home.welcoming.7": "Bitte reserviert bis dahin auch eure Übernachtung in der Jugendherberge.",
+    "home.welcoming.8": "Wir freuen uns, wenn ihr diesen besonderen Tag mit uns feiert.",
+    "home.welcoming.9": "Sabrina & Fiacre",
+
 
     "story.title.1": "Unsere Geschichte",
     "story.1.card": "Aufeinandertreffen",
